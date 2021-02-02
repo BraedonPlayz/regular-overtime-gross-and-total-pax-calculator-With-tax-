@@ -1,0 +1,335 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.HourLabel = New System.Windows.Forms.Label()
+        Me.RateLabel = New System.Windows.Forms.Label()
+        Me.HoursComboBox = New System.Windows.Forms.ComboBox()
+        Me.RateComboBox = New System.Windows.Forms.ComboBox()
+        Me.RegularLabel = New System.Windows.Forms.ComboBox()
+        Me.OvertimeLabel = New System.Windows.Forms.ComboBox()
+        Me.GrossLabel = New System.Windows.Forms.ComboBox()
+        Me.ExitButton = New System.Windows.Forms.Button()
+        Me.ClearButton = New System.Windows.Forms.Button()
+        Me.CalculateButton = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TaxComboBox = New System.Windows.Forms.ComboBox()
+        Me.TotalLabel = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TaxLabel = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(82, 275)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(68, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Regular Pay:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(246, 275)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(73, 13)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Overtime Pay:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(398, 275)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(58, 13)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Gross Pay:"
+        '
+        'HourLabel
+        '
+        Me.HourLabel.AutoSize = True
+        Me.HourLabel.Location = New System.Drawing.Point(82, 70)
+        Me.HourLabel.Name = "HourLabel"
+        Me.HourLabel.Size = New System.Drawing.Size(38, 13)
+        Me.HourLabel.TabIndex = 3
+        Me.HourLabel.Text = "Hours:"
+        '
+        'RateLabel
+        '
+        Me.RateLabel.AutoSize = True
+        Me.RateLabel.Location = New System.Drawing.Point(260, 70)
+        Me.RateLabel.Name = "RateLabel"
+        Me.RateLabel.Size = New System.Drawing.Size(33, 13)
+        Me.RateLabel.TabIndex = 4
+        Me.RateLabel.Text = "Rate:"
+        '
+        'HoursComboBox
+        '
+        Me.HoursComboBox.AutoCompleteCustomSource.AddRange(New String() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"})
+        Me.HoursComboBox.FormattingEnabled = True
+        Me.HoursComboBox.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60"})
+        Me.HoursComboBox.Location = New System.Drawing.Point(52, 103)
+        Me.HoursComboBox.Name = "HoursComboBox"
+        Me.HoursComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.HoursComboBox.TabIndex = 5
+        '
+        'RateComboBox
+        '
+        Me.RateComboBox.FormattingEnabled = True
+        Me.RateComboBox.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "70", "80", "90", "100"})
+        Me.RateComboBox.Location = New System.Drawing.Point(217, 103)
+        Me.RateComboBox.Name = "RateComboBox"
+        Me.RateComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.RateComboBox.TabIndex = 6
+        '
+        'RegularLabel
+        '
+        Me.RegularLabel.FormattingEnabled = True
+        Me.RegularLabel.Location = New System.Drawing.Point(52, 308)
+        Me.RegularLabel.Name = "RegularLabel"
+        Me.RegularLabel.Size = New System.Drawing.Size(121, 21)
+        Me.RegularLabel.TabIndex = 7
+        '
+        'OvertimeLabel
+        '
+        Me.OvertimeLabel.Cursor = System.Windows.Forms.Cursors.No
+        Me.OvertimeLabel.FormattingEnabled = True
+        Me.OvertimeLabel.Location = New System.Drawing.Point(217, 308)
+        Me.OvertimeLabel.Name = "OvertimeLabel"
+        Me.OvertimeLabel.Size = New System.Drawing.Size(121, 21)
+        Me.OvertimeLabel.TabIndex = 8
+        '
+        'GrossLabel
+        '
+        Me.GrossLabel.FormattingEnabled = True
+        Me.GrossLabel.Location = New System.Drawing.Point(368, 308)
+        Me.GrossLabel.Name = "GrossLabel"
+        Me.GrossLabel.Size = New System.Drawing.Size(121, 21)
+        Me.GrossLabel.TabIndex = 9
+        '
+        'ExitButton
+        '
+        Me.ExitButton.Location = New System.Drawing.Point(537, 381)
+        Me.ExitButton.Name = "ExitButton"
+        Me.ExitButton.Size = New System.Drawing.Size(75, 23)
+        Me.ExitButton.TabIndex = 10
+        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.UseVisualStyleBackColor = True
+        '
+        'ClearButton
+        '
+        Me.ClearButton.Location = New System.Drawing.Point(392, 381)
+        Me.ClearButton.Name = "ClearButton"
+        Me.ClearButton.Size = New System.Drawing.Size(75, 23)
+        Me.ClearButton.TabIndex = 11
+        Me.ClearButton.Text = "Clear"
+        Me.ClearButton.UseVisualStyleBackColor = True
+        '
+        'CalculateButton
+        '
+        Me.CalculateButton.Location = New System.Drawing.Point(244, 381)
+        Me.CalculateButton.Name = "CalculateButton"
+        Me.CalculateButton.Size = New System.Drawing.Size(75, 23)
+        Me.CalculateButton.TabIndex = 12
+        Me.CalculateButton.Text = "Calculate"
+        Me.CalculateButton.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(389, 70)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(83, 13)
+        Me.Label4.TabIndex = 13
+        Me.Label4.Text = "Tax Percentage"
+        '
+        'TaxComboBox
+        '
+        Me.TaxComboBox.FormattingEnabled = True
+        Me.TaxComboBox.Items.AddRange(New Object() {"1", "1.25", "1.5", "1.75", "2", "2.25", "2.5", "2.75", "3", "3.25", "3.5", "3.75", "4", "4.25", "4.5", "4.75", "5", "5.25", "5.5", "5.75", "6", "6.25", "6.5", "6.75", "7", "7.25"})
+        Me.TaxComboBox.Location = New System.Drawing.Point(368, 103)
+        Me.TaxComboBox.Name = "TaxComboBox"
+        Me.TaxComboBox.Size = New System.Drawing.Size(121, 21)
+        Me.TaxComboBox.TabIndex = 14
+        '
+        'TotalLabel
+        '
+        Me.TotalLabel.FormattingEnabled = True
+        Me.TotalLabel.Location = New System.Drawing.Point(651, 308)
+        Me.TotalLabel.Name = "TotalLabel"
+        Me.TotalLabel.Size = New System.Drawing.Size(121, 21)
+        Me.TotalLabel.TabIndex = 15
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(660, 275)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(98, 13)
+        Me.Label5.TabIndex = 17
+        Me.Label5.Text = "Total Pay After Tax"
+        '
+        'TaxLabel
+        '
+        Me.TaxLabel.FormattingEnabled = True
+        Me.TaxLabel.Location = New System.Drawing.Point(514, 308)
+        Me.TaxLabel.Name = "TaxLabel"
+        Me.TaxLabel.Size = New System.Drawing.Size(121, 21)
+        Me.TaxLabel.TabIndex = 18
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(559, 275)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(25, 13)
+        Me.Label6.TabIndex = 19
+        Me.Label6.Text = "Tax"
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.TaxLabel)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TotalLabel)
+        Me.Controls.Add(Me.TaxComboBox)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.CalculateButton)
+        Me.Controls.Add(Me.ClearButton)
+        Me.Controls.Add(Me.ExitButton)
+        Me.Controls.Add(Me.GrossLabel)
+        Me.Controls.Add(Me.OvertimeLabel)
+        Me.Controls.Add(Me.RegularLabel)
+        Me.Controls.Add(Me.RateComboBox)
+        Me.Controls.Add(Me.HoursComboBox)
+        Me.Controls.Add(Me.RateLabel)
+        Me.Controls.Add(Me.HourLabel)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Name = "Form1"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents HourLabel As Label
+    Friend WithEvents RateLabel As Label
+    Friend WithEvents HoursComboBox As ComboBox
+
+    Private Sub Label5_Click(sender As Object, e As EventArgs) Handles RateLabel.Click
+
+    End Sub
+
+    Friend WithEvents RateComboBox As ComboBox
+    Friend WithEvents RegularLabel As ComboBox
+    Friend WithEvents OvertimeLabel As ComboBox
+    Friend WithEvents GrossLabel As ComboBox
+
+    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles HoursComboBox.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub ComboBox4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles OvertimeLabel.SelectedIndexChanged
+
+    End Sub
+
+    Friend WithEvents ExitButton As Button
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
+        Me.Close()
+    End Sub
+
+    Private Sub ComboBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles RateComboBox.SelectedIndexChanged
+
+    End Sub
+
+    Friend WithEvents ClearButton As Button
+
+    Private Sub ClearButton_Click(sender As Object, e As EventArgs) Handles ClearButton.Click
+        ClearLabels()
+    End Sub
+    Sub ClearLabels()
+        Label1.Text = String.Empty
+        Label2.Text = String.Empty
+        GrossLabel.Text = String.Empty
+    End Sub
+
+    Friend WithEvents CalculateButton As Button
+
+    Private Sub CalculateButton_Click(sender As Object, e As EventArgs) Handles CalculateButton.Click
+        Calculate(HoursComboBox.Text, RateComboBox.Text, TaxComboBox.Text)
+    End Sub
+    Sub Calculate(hours As Integer, rate As Decimal, tax As Decimal)
+        Dim otPay As Decimal
+        Dim Pay As Decimal
+        Dim taxpercentage As Decimal
+        Dim taxtaken As Decimal
+
+        If hours > 40 Then
+            otPay = (hours - 40) * 1.5 * rate
+            hours = 40
+        End If
+
+        Pay = hours * rate
+        RegularLabel.Text = Pay
+        OvertimeLabel.Text = otPay
+        GrossLabel.Text = Pay + otPay
+        taxpercentage = tax / 100
+        taxtaken = (Pay + otPay) * taxpercentage
+        TaxLabel.Text = taxtaken
+        TotalLabel.Text = Pay + otPay - taxtaken
+    End Sub
+
+    Friend WithEvents Label4 As Label
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Friend WithEvents TaxComboBox As ComboBox
+    Friend WithEvents TotalLabel As ComboBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TaxLabel As ComboBox
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Friend WithEvents Label6 As Label
+End Class
